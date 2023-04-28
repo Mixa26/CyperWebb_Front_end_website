@@ -33,7 +33,46 @@
     text-align: center;
 }
 
-/* Body elements styling */
+/* Start page elements */
+
+.bodyElement{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+    display: inline-block;
+}
+
+.bodyElementClickable{
+    cursor: pointer;
+    position: relative;
+}
+
+.bodyElementClickable:hover{
+    background-color: blue;
+}
+
+.bodyElementTitle{
+    text-align:center;
+    padding: 1vw;
+}
+
+.bodyImageCenter{
+    margin-left: 40%;
+    margin-bottom:5vw;
+}
+
+.bodyEmailSendTitle{
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+.bodyEmaildiv{
+    width: 100%;
+    padding: 1.5rem;
+}
+
+/* Body elements styling for offer page */
 .bodyTitle{
     width: 100%;
     height: 7rem;
@@ -65,6 +104,12 @@
     font-size: 2rem;
     text-align: center;
     padding-top: 2.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.bodyOfferElement:hover{
+    background-color: gray;
 }
 
 .bodyOfferElementMarginBetween{
@@ -110,6 +155,55 @@
     font-family: 'Pridi', serif;
 }
 
+.webHostingDescriptionDiv1{
+    padding-top: 5rem;
+    padding-left: 6.7rem;
+    padding-right: 6.7rem;
+    padding-bottom: 4rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Pridi', serif;
+}
+
+.webHostingDescriptionDiv2{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding-top: 2rem;
+    padding-left: 6.7rem;
+    padding-right: 6.7rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Pridi', serif;
+}
+
+/* Packet offers for web hosting*/
+
+.webHostingPacketOfferDiv{
+    display: inline-block;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1.5rem;
+    font-family: 'Pridi', serif;
+}
+
+.webHostingPacketOfferImageCenter{
+    margin-top: 3rem;
+}
+
+/* Packet offers for business hosting*/
+
+.businessHostingPacketOfferDiv{
+    display: inline-block;
+    width: 1rem;
+    margin-top: 0.5rem;
+    padding: 1vw;
+    font-size: 1.5vw;
+    font-family: 'Pridi', serif;
+}
+
 /* Footer */
 
 .footerDiv{
@@ -125,6 +219,12 @@
 .col-lg-6-custom{
     -ms-flex: 0 0 50%;
     flex: 0 0 49%;
+    max-width: 50%;
+}
+
+.col-lg-4-custom{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 32.7%;
     max-width: 50%;
 }
 
@@ -144,7 +244,50 @@
     font-size: 1.2rem;
 }
 
+.marginRightPacket{
+    margin-right: 0.5vw;
+}
+
 .marginLeft{
     margin-left: 1.5rem;
     margin-right: 5rem;
+}
+
+.marginLeftSmall{
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.marginTop{
+    margin-top: 5rem;
+}
+
+.marginTopSmall{
+    margin-top: 1rem;
+}
+
+.paddingTextBig{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.displayInline{
+    display: inline-block;
+}
+
+a:hover{
+    background-color: gray;
+}
+
+.link {
+    position: absolute;
+    padding-top:2.5rem;
+    color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
